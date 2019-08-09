@@ -1,0 +1,4 @@
+INSERT INTO `t_payment`( `payment`, `payname`, `payimage`, `alias`, `sign_type`) VALUES 
+('易支付支付宝', '支付宝', '/res/images/pay/alipay.jpg', 'alpayalipay', 'MD5'),
+('易支付微信', '微信支付', '/res/images/pay/weixin.jpg', 'alpaywxpay', 'MD5'),
+('易支付QQ', 'QQ支付', '/res/images/pay/qqpay.jpg', 'alpayqqpay', 'MD5');
